@@ -7,7 +7,7 @@ from requests.auth import HTTPBasicAuth
 import json
 
 # Jira API URL for creating issues
-url = "https://flatiron.atlassian.net/rest/api/3/issue"
+url = "https://[base_url]/rest/api/3/issue" # CHANGE THIS
 
 # Your Jira credentials
 auth = HTTPBasicAuth("[email_address", "[API_KEY]") # CHANGE THIS
